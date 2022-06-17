@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(217, 222, 220);
+}
+
+table {
+    border: 1px solid black;
+}
+
+table tr {
+    background-color: red;
+}
+
+/* table tr {
+    border: 1px solid black;
+}
+
+table th {
+    border: 1px solid black;
+}
+
+.main {
+    margin: 150px 500px;
+    border-radius: 15px;
+
+}
+
+/* .id1 tr td{
+    color: brown;
+} */
+
+/* .id1 {
+    background-color: red;
+}  */

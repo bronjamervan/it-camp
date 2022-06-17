@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(217, 222, 220);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlSFeGkoMWYpvuWsklkLabiIgjItPJPXMy7Q&usqp=CAUw);
+
+}
+
+table {
+    border: 1px solid black;
+    border-color: black !important;
+    background-color: rgba(5, 133, 31, 0.852);
+    border-radius: 5px;
+    height: 400px;
+    width: 700px;
+    margin: 50px auto;
+    border: 3px solid black;
+}
+
+table td {
+    border: 3px dashed black;
+    padding: 5px 10px;
+    background-color: rgb(66, 177, 15);
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase; 
+
+}
+table td:hover {
+    background-color: rgb(113, 65, 43);
+}
+table th {
+    text-align: right;
+}
+#id1 {
+    background-color: black;
+}
+
+img {
+    margin: 100px 25px 0px 40px;
+    height: 280px;
+    width: 420px;
+    
+}
+.main {
+    display: flex;
+}
