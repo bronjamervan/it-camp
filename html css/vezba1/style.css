@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+p {
+    color: blue;
+}
+p:hover {
+    color: aquamarine;
+}
+
+h3 {
+    text-align: center;
+}
+
+.pre-heder {
+    background-color: black;
+    height: 60px;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 5px;
+    display: flex;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    
+
+}
+
+.button {
+    height: 40px;
+    width: 80px;
+    background-color: aqua;
+    text-align: center;
+    
+
+}
+
+.button:hover {
+    background-color: aquamarine;
+}
