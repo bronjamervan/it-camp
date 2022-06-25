@@ -1,0 +1,40 @@
+ *{
+    margin: 0;
+} 
+body {
+    margin:  30px 300px;
+}
+.main {
+    display: inline-block;
+    margin: 15px;
+    padding: 20px 15px;
+    border: 2px dashed black;
+    width: 200px;
+    height: 300px;
+    overflow-y: scroll ;
+    background-color: rgba(7, 121, 83, 0.311);
+}
+.main:hover {
+    background-color: aqua;
+
+}
+
+.fuga {
+    color: rgb(136, 97, 39);
+    font-size: 20px;
+}
+.back {
+    color: antiquewhite;
+    margin: 20px auto;
+    height: 700px;
+    width: 650px;
+    background-image: url("https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg");
+    /* background-size: 60px 50px;  prva vrednost se odnosi na sirinu druga na visinu*/
+    /* background-size: cover;  za prekrivanje celog diva*/
+    /* background-size:contain ; povecava fotografiju kako se se popuni kontejner, ali ne sece se*/
+    background-repeat: no-repeat; 
+}
+
+.back h1 {
+    color: blue;
+}

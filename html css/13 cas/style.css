@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+/* .main:nth-of-type(1) {
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    overflow: auto;
+}  */
+.main {
+    background-color: aquamarine;
+    width: 350px;
+    height: 400px;
+    margin: 40px 20px;
+    overflow: auto;
+    /* display: none; */
+    display: inline-block;
+}
+/* .main:nth-of-type(3) {
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    overflow: auto;
+}  */
+
+/* HTML ELEMENTS */
+/* Postoje: 
+1.block level elemnts
+/* neki poznati block level elemnts:
+<p>
+<div>
+<h1> do <h6>
+<ol>,<ul>,<li>
+<main>
+<saction>
+<article>
+ */
+
+/* 2.iline elements */ 
+/* Neki poznati inline elemnts */
+/* 
+<span>
+<a>
+<img>
+<button>
+*/
