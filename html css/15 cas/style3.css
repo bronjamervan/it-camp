@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: 'EXO-2', sans-serif;
+    background-color:rgba(0, 0, 0, 0.219);
+}
+h1 {
+    padding-bottom: 20px;
+    color: aqua;
+}
+.main {
+    margin: 100px 200px;
+    width: 400px;
+    height: 500px;
+    float: left;
+}
+img {
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
+}
+.main2 {
+    background-color: aquamarine;
+    float: right;
+    margin: 50px 100px;
+    width: 400px;
+    height: 500px;
+}
+.input1 {
+    margin: 30px auto;
+    margin-left: 70px;
+    width: 200px;
+    height: 30px;
+}
+.input2 {
+    margin: 10px auto;
+    margin-left: 70px;
+    width: 200px;
+    height: 30px;
+}
+.button1 {
+    margin: 30px auto;
+    margin-left:70px ;
+    width: 200px;
+    padding: 10px;
+    color: blue;
+}
+.input3 {
+    color: rgb(80, 24, 183);
+    
+    border: none;
+    background-color: aquamarine;
+}

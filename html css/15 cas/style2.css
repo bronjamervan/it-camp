@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: 'EXO-2', sans-serif;
+}
+.perent {
+    width: 100vw;
+    height: 400px;
+    background-color: aquamarine;
+    
+}
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(165, 42, 42, 0.7);
+    float:right;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(64, 22, 155);
+    float: right;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(48, 160, 23);
+    float: right;
+}
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(170, 15, 144);
+    clear: both;
+    float: left;
+}
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(178, 151, 15);
+    float: left;
+}
+.box6 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(40, 2, 41);
+    float: left;
+}
+.box7 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(27, 61, 2);
+    float: left;
+}
+.prvi {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(25, 25, 103);
+    float: left;
+}
+.drugi {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    float: right;
+}
