@@ -25,30 +25,38 @@ img {
     float: right;
     margin: 50px 100px;
     width: 400px;
-    height: 500px;
+    height: 400px;
+    border-radius: 15px;
 }
 .input1 {
     margin: 30px auto;
-    margin-left: 70px;
-    width: 200px;
-    height: 30px;
+    margin-left: 60px;
+    width: 270px;
+    height: 40px;
+    text-align: center;
 }
 .input2 {
     margin: 10px auto;
-    margin-left: 70px;
-    width: 200px;
-    height: 30px;
+    margin-left: 60px;
+    width: 270px;
+    height: 40px;
+    text-align: center;
 }
 .button1 {
     margin: 30px auto;
-    margin-left:70px ;
+    margin-left:100px ;
     width: 200px;
     padding: 10px;
-    color: blue;
+    color: wheat;
+    background-color: blue;
 }
-.input3 {
+.button3 {
     color: rgb(80, 24, 183);
-    
     border: none;
     background-color: aquamarine;
+    margin-left:110px ;
+    cursor: pointer;
+}
+.button4 {
+
 }
