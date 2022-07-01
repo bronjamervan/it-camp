@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.glavni {
+    height:200vw;
+    height: 100vw;
+    background-color: blueviolet;
+}
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+    left: 50px;
+    top: 20px
+}
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    left: 100px;
+    top: -20px;
+    position: relative;
+    z-index: 1;
+}
+.box3 {
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    position: relative;
+    top: -40px;
+    left: 150px;
+}
