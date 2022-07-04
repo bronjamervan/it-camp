@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Exo 2', sans-serif; 
+    background-color: rgb(80, 215, 170);
+}
+.main {
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(103, 38, 32);
+    padding: 5px 10px;
+    /* position: absolute; */
+
+}
+.head {
+    position: absolute;
+    top: 1.7em;
+    right: 2rem;
+    font-size: 20px;
+    top: 10px;
+}
+.body1 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.body2 {
+    background-color: black;
+    color: aliceblue;
+    height: 400px;
+    width: 600px;
+    margin: 50px; 
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+}
+.body3 {
+    background-color: blue;
+    width: 250px;
+    height:250px;
+    float: right;
+    margin: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.rosa {
+    margin-left:10% ;
+    margin-right: 10%;
+    clear: both;
+}
+.rosa1 {
+    float: left;
+}
+.futher {
+    clear: both;
+    background-color: blueviolet;
+    margin-top: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
