@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+.header {
+    background-color: rgb(127, 255, 212);
+    width: 30vw;
+    height: 4rem;
+    padding: 10px;
+    border: 2px dashed red ;
+}
+.after {
+    background-color: rgb(225, 17, 159);
+    width: 30vw;
+    height: 4rem;
+    padding: 10px;
+    border: 2px dotted red ;
+}
+.footer {
+    background-color: rgb(22, 173, 11);
+    width: 30vw;
+    height: 4rem;
+    padding: 10px;
+    border: 2px double red ;
+}

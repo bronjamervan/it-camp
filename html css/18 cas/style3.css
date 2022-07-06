@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+.perent {
+    margin: 0 auto;
+    width: 80vw;
+    height: 500px;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.box:nth-of-type(1) {
+    width: 200px;
+    height: 100px;
+    background-color: #006400;
+    /* u slucaju primene ordera neophodno je dodeliti vrednost  */
+    /* za svaki elemenat  */
+    order: 2;
+}
+.box:nth-of-type(2) {
+    width: 200px;
+    height: 100px;
+    background-color: #ff8c00;
+    order: 3;
+}
+
+.box:nth-of-type(3) {
+    width: 200px;
+    height: 100px;
+    background-color:#24b31d;
+    order: 1;
+}
