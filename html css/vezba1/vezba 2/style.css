@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+body{
+    background-color: darkolivegreen;
+}
+.glavni {
+    background-color: darkslategray;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    justify-content:space-between ;
+}
+.linkovi {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 30px;
+}
+#menu {
+    padding: 10px;
+    font-size: 25px;
+}
+#naselje {
+    padding: 10px;
+    font-size: 25px;
+}
+#lokacija {
+    padding: 10px;
+    font-size: 25px;
+}
+.razreda {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+}
+.prvideo {
+    height: 30vh;
+    width: 30vw;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: forestgreen;
+}
+img {
+    width: 25vw;
+    height: 200px;
+    padding-top: 50px ;
+    /* display: flex;
+    align-items: end; */
+    border-radius: 20px;
+}
+.text1 {
+    padding: 10px;
+}
+.text1:hover {
+    color: antiquewhite;
+}
+.naslov1 {
+    padding:8px 8px 0 8px;
+
+}
