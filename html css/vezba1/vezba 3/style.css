@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.pocetni {
+    background-color: cadetblue;
+    /* width: 100vw; */
+    height: 5rem;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img {
+    width: 10vw;
+    height: 5vw;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+.menu {
+    font-size: 25px;
+    display: flex;
+    padding-right: 100px;
+}
+.a1 {
+    padding-left:5px ;
+    padding-right:5px ;
+}
+.srednji{
+    background-color: black;
+    height: 50vw;
+    display: flow-root;
+    display: flex;
+    justify-content:space-between ; 
+}
+.levo{
+    background-color: brown;
+    width: 30vw;
+    height: 50vh;
+    margin-left: 100px;
+    margin-top: 70px;    
+    padding: 7px;
+    border-radius: 10px;
+}
+.desno{
+    background-color: rgb(16, 86, 216);
+    width: 30vw;
+    height: 50vh;
+    margin-top: 250px;  
+    margin-right: 100px;
+    padding: 7px;
+    border-radius: 10px;
+}
+.h1 {
+    padding-bottom: 5px;
+}
