@@ -13,5 +13,5 @@ console.log(typeof broj_Godine)
 // 2. nacin
 broj_Godine = Number (broj_Godine)
 
-let broj_Godine = Number ( prompt ("Unesite broj godina:"));
-console.log(broj_Godine)
+let brojGodine = Number(prompt("Unesite broj godina:"));
+console.log(brojGodine)
