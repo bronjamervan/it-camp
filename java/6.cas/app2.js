@@ -60,15 +60,15 @@
 
 //ispisati parne brojeve od 1-20 na dva nacina 
 
-for ( var i = 1; i<=20; i++) {
-    if ( i % 2 === 0); {
-        console.log(i);  //nesto ne radi
-    }
-} 
+// for ( var i = 1; i<=20; i++) {
+//     if ( i % 2 === 0); {
+//         console.log(i);  //nesto ne radi
+//     }
+// } 
 
-for ( var z = 2; z <=20; z+=2) {
-    console.log(z);
-}
+// for ( var z = 2; z <=20; z+=2) {
+//     console.log(z);
+// }
 
 
 // Domaci:
@@ -81,4 +81,28 @@ for ( var z = 2; z <=20; z+=2) {
 //3. ispisati dvostruku vrednost do 6-14.
 
 //4.
-// suma neparnih prirodnih brojeva od 10 do 20.
+// suma neparnih prirodnih brojeva od 10 do 20.\
+
+
+
+
+
+//1 domaci
+
+for ( var z = 1; z <=20; z+=2) {
+    console.log(z);
+}
+
+
+//2 zadatak
+
+// for (var a = 50; a <=100; a+=5) {
+//     console.log(a);
+// }
+
+for (var a=50; a<=100; a++){
+    if ( a%5 == 0)
+    console.log (a);
+}
+
+//3 zadatak
