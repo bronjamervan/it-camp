@@ -106,3 +106,18 @@ for (var a=50; a<=100; a++){
 }
 
 //3 zadatak
+
+for (let x=6; x<=14; x++){
+    let y = 2 * x;
+    console.log(y);  //1. nacin
+    //console.log(x*2); 2. nacin
+}
+
+// 4 zadatak
+
+let suma = 0;
+for (let i = 11; i<=20; i+=2) {
+    suma += i;
+}
+
+console.log(suma);
