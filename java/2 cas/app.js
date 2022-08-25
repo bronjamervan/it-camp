@@ -46,3 +46,4 @@ const x = 10;   // kod const kljucne reci odjednom se mora izvrsiti deklaracija 
 
 
 //varijable (promenjive) su kontejneri za skladistenje vrednosti.
+
