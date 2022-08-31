@@ -48,7 +48,7 @@
 // let broj6 = Number(prompt("Unesite drugi broj: "))
 // let broj5 = Number(prompt("Unesite prvi broj: "))
 
-// if (isNaN(broj5) || isNaN(broj6)) {
+//  if (isNaN(broj5) || isNaN(broj6)) {
 //     console.log ("niste uneli korektne vrednosti za brojeve. ")
 // } else if (broj5 === broj6) {
 //     console.log ("brojevi moraju biti razliciti.")
@@ -63,7 +63,7 @@
 //         console.log(broj5);
 //         broj5++;
 //     }
-// }
+//  }
 
 
 // do while petlja predstavlja obrnuti postupak while petlje.
