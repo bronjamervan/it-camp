@@ -128,8 +128,8 @@ console.log(prom9 > prom10);
 // < - Promenjiva da li je prva vrednost manja od druge
 
 let prom11,prom12;
-prom9 = 52;
-prom10 = 25;
+prom11 = 52;
+prom12 = 25;
 console.log(prom11 > prom12);
 
 
