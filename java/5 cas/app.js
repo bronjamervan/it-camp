@@ -89,19 +89,19 @@ switch (izraz) {
 const broj2 = Number(prompt("Unesite broj izmedju 12-15:"));
 
 if (broj2) {
-    case 12:
+    case 12;
         console.log(broj2);
-        break;
-    case 12:
+        break
+    case 12;
         console.log(broj2);
-        break;
-    case 13:
+        break
+    case 13;
         console.log(broj2);
-        break;
-    case 14:
-        console.log(broj2);
-        break;
-    default:
+        break
+    case 14;
+        console.log(broj2)
+        break
+    default
         console.log("Niste uneli broj iz trazenog opsega.");
 }
 

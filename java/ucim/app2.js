@@ -83,3 +83,7 @@ for (let x = 1; x <= 5; x++) {
 
 //Traziti od korisnika unos nekog realnog broja. Nakon toga ispisati u konzoli kvadrat tog broja (pozeljno je obuhvatiti slucaj kada korisnik ne unese odgovarajucu vrednost).
 
+
+
+const a = Number(prompt("unesi neki broj"))
+console.log(a**2)
