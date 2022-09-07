@@ -18,6 +18,8 @@
 //    FUNKCIJE
 
 
+// DRY don't repeat yoursafle
+
 // Funkcije predstavljaju blok koda koji se izvrsava samo prilikom pozivanja.
 
 // Nacini zapisivanja funkcija:
@@ -49,3 +51,99 @@ function zbirDvaBroja(prviBroj, drugiBroj){
 }
 // Prilikom pozivanja funkcije u zagradi stavljamo argumente na osnovu kojih se funkcija izvrsava.
 console.log(zbirDvaBroja(5, 14));
+
+
+function povrsinaUzimaDveVrednosti(prvaVrednost, drugaVrednost) {
+    if (prvaVrednost === drugaVrednost) {
+        return "Povrsina kvadrata iznosi " + prvaVrednost *drugaVrednost;
+    } else {
+        return "Povrsina pravogaunika iznosi " + prvaVrednost * drugaVrednost
+    }
+} 
+
+console.log(povrsinaUzimaDveVrednosti(15,2));
+console.log(povrsinaUzimaDveVrednosti(4 ,4));
+
+// 2. nacin :
+
+const myfunction = function () {
+    // radnja koja se obavlja
+}
+
+// napraviti funkciju koja vraca zbir kvadrata dva broja.
+// druga vrednost je po difoltu 1.
+// I nacin
+const mySecondFunction = function (prva, druga) {
+    if (druga === undefined) {
+        return prva**2 + 1;
+    } else {
+        return  prva**2 + druga**2;
+    }
+
+}
+console.log(mySecondFunction(5));
+console.log(mySecondFunction(5 , 4));
+
+// II nacin
+const mySecondFunction2 = function (prva, druga=1) {
+    return prva**2 + druga**2
+}
+
+console.log(mySecondFunction2(3))
+console.log(mySecondFunction2(3 , 3))
+
+// Ako neka funkcija ima defaultnu vrednost, ta vrednost se stavlja na poslednjem mestu,
+// ako ih je vise, na poslednjim pozicijama.
+// ne sme se desiti slucaj da prva vrednost bude defaultna a nakon nje ona koja nema
+// defaultna vrednost.
+
+// arrow function:
+
+const arrowFunc = () => {
+    //kod za izvrsavanje
+}
+
+
+// Napraviti arrow funkciju koja na osnovu unetog argumenta vraca jedno od tri stanja
+// ako je unet pozitivan broj, ispisuje poruku "ARGUMENT JE POZITIVAN BROJ"
+// ako je unet negativan broj, ispisuje poruku "ARGUMENT JE NEGATIVAN BROJ"
+// ako je uneta nula, ispiuje sporuku "ARGUMENT JE NULA"
+// Ako nije unet broj, ispisuje poruku "ARGUMENT NIJE UNET"
+
+const arrowFunc2 = (nekiBroj) => {
+    if (nekiBroj<0) {
+        return "broj je negativan"
+    } else if  (nekiBroj>0) {
+        return "broj je pozitivan"
+    } else if (nekiBroj===0) {
+        return "broj je jednak nuli"
+    } else {
+        return "argument nije broj"
+    }
+}
+
+console.log(arrowFunc2(-5))
+console.log(arrowFunc2(5))
+console.log(arrowFunc2(0))
+
+
+const treciZadatak= function (recenica2)  {
+    let recenica2 = " "
+    for (i = 0; i<= recenica2.length; i++) {
+        if(recenica2[i] === "a" || 
+        recenica2[i] === "e" || 
+        recenica2[i] === "i" || 
+        recenica2[i] === "o" || 
+        recenica2[i] === " u"){
+            recenica2 += recenica2[i].toUpperCase();
+        } else if (i === recenica2.length){
+            return recenica2 += ".";
+        }else {
+            recenica2 += recenica2[i];
+    }
+}
+return recenica2;
+}
+
+console.log(treciZadatak("Pocela je nova skolska godina"));
+console.log(recenica2)
