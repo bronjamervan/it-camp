@@ -128,25 +128,25 @@ console.log(arrowFunc2(0))
 
 
 const treciZadatak= function (recenica2)  {
-    let recenica2 = " "
+    let recenica3 = " "
     for (i = 0; i<= recenica2.length; i++) {
         if(recenica2[i] === "a" || 
         recenica2[i] === "e" || 
         recenica2[i] === "i" || 
         recenica2[i] === "o" || 
         recenica2[i] === " u"){
-            recenica2 += recenica2[i].toUpperCase();
+            recenica3 += recenica2[i].toUpperCase();
         } else if (i === recenica2.length){
-            return recenica2 += ".";
+            return recenica3 += ".";
         }else {
-            recenica2 += recenica2[i];
+            recenica3 += recenica2[i];
     }
 }
-return recenica2;
+    return recenica3;
 }
 
 console.log(treciZadatak("Pocela je nova skolska godina"));
-console.log(recenica2)
+// console.log(recenica2)
 
 
 
@@ -160,15 +160,15 @@ console.log(recenica2)
 
 
 
-const hasan =  (mervan, merdan) => {
-    if (merdan < mervan ) {
-        return "Merdan je mladji od mervana"
-    } else if ( mervan > merdan) {
-        return "Mervan je starirji od merdana"
-    } else {
-        return "unesite pravu vrednost"
-    }
-}
+// const hasan =  (mervan, merdan) => {
+//     if (merdan < mervan ) {
+//         return "Merdan je mladji od mervana"
+//     } else if ( merdan > mervan) {
+//         return "Mervan je starirji od merdana"
+//     } else {
+//         return "unesite pravu vrednost"
+//     }
+// }
 
-console.log(hasan(18, 15))
-console.log(hasan(15, 18))
+// console.log(hasan(18, 15))
+// console.log(hasan(15, 18))
