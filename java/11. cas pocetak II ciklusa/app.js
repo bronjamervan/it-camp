@@ -147,3 +147,28 @@ return recenica2;
 
 console.log(treciZadatak("Pocela je nova skolska godina"));
 console.log(recenica2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+const hasan =  (mervan, merdan) => {
+    if (merdan < mervan ) {
+        return "Merdan je mladji od mervana"
+    } else if ( mervan > merdan) {
+        return "Mervan je starirji od merdana"
+    } else {
+        return "unesite pravu vrednost"
+    }
+}
+
+console.log(hasan(18, 15))
+console.log(hasan(15, 18))
