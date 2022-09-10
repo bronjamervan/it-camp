@@ -29,13 +29,32 @@ if (isSanny){
 
 // ispitati da li jevrednost koju unosi korisnik TRUTY ili FLASY.
 
-const vrednost = +prompt("Unesi neku vrednost:")
+// const vrednost = +prompt("Unesi neku vrednost:")
+
+// function truthyOrFalsy () {
+//     if (vrednost) {
+//         return "uneli ste TRUTHY vrednost."
+//     }else {
+//         return "uneli ste falsy vrednost."
+//     }
+// }
+// console.log(truthyOrFalsy())
+
+
+
+console.log("----------------------------------------------------------------------------------------------------------------------")
+
+
+
+const korisnik = +prompt("unesi neku vrednost")
+
 
 function truthyOrFalsy () {
-    if (vrednost) {
-        return "uneli ste TRUTHY vrednost."
-    }else {
-        return "uneli ste falsy vrednost."
+    if (korisnik) {
+        return "ova vrednost je truthy"
+    } else {
+        return "ova vrednost je falsy"
     }
 }
+
 console.log(truthyOrFalsy())
