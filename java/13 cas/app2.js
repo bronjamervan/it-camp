@@ -1,4 +1,4 @@
-// stringovi
+c// stringovi
 
 // stringovi predstavljaju immutable promenjive (promennive koje ne mozemo da menjamo ).
 // ali obicno pri potrebi da izmenimo string  cemo definisati novu promenjivu i dodeliti

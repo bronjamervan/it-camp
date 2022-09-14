@@ -8,18 +8,20 @@
 
 let unetaRecenica = prompt("unesi recenicu: ")
 
-console.log(unetaRecenica.toUpperCase())
+console.log(unetaRecenica.toUpperCase())   // ispisivanje recenice u velika slova
 
-console.log(unetaRecenica.toLowerCase())
+console.log(unetaRecenica.toLowerCase())   // ispisivanje recenice u mala slova
 
 
-let novaRecenica = unetaRecenica.length
+
 
 
 
 let recenica = unetaRecenica.replace(/skola/i , "fakultet")
-console.log(recenica)
+console.log(recenica)                      // ispravljanje 'skola' u 'fakultet'
 
+console.log(unetaRecenica.slice(0, 10))    // prvih 10 karaktera unete recenice
 
+console.log(unetaRecenica.slice(-11, -1))  // zadnjig 10 karaktera unete recenice
 
 
